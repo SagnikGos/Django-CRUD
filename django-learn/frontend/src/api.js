@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://127.0.0.1:8000/api/items/";
+const API_URL = "https://django-crud-iqre.onrender.com/api/items/";
 
 export const getItems = async () => {
     const response = await axios.get(API_URL);
