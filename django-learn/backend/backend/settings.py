@@ -131,6 +131,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173", 
+    "https://django-crud-rose.vercel.app",
     # Allow React frontend to access the backend
 ]
 
